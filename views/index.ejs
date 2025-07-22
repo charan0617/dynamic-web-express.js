@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1>Welcome to the <%= title %></h1>
+    <p>This is the home page.</p>
+    <form method="POST" action="/submit">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="number" name="age" placeholder="Age" required>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="/about">About</a> | <a href="/users">Users</a>
+</body>
+</html>
